@@ -1,0 +1,22 @@
+DESCRIPTION
+-----------
+This repository includes a python script meant to show the 
+numerical representation and modularity of code libraries 
+as well as images (PNG). Since images are simply represented
+by 1's and 0's on a hardware level, programmers (or anyone 
+for that matter) can alter the image by changing the bits 
+used to store the image. This script implements many different
+alterations to an image such as grayscale, pixel manipulation,
+and image transposing. 
+
+HOW TO RUN
+----------
+In a terminal window with Python 3 installed, navigate to the 
+directory containing ImageFuzz.py and run the command:
+	
+	"python3 ImageFuzz.py"
+
+Follow the prompts given to you by the program. Once the script 
+is done running, you should have a variety of PNG files in your
+current directory which are alterations of the file given to 
+the script.
